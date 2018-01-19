@@ -36,7 +36,6 @@ about:
   license_family: BSD
   license_file: LICENSE.txt
   summary: 'Pythonic file-system interface for Google Cloud Storage'
-
   doc_url: http://gcsfs.readthedocs.io/en/latest/
 
 extra:
