@@ -14,9 +14,7 @@ Summary: Pythonic file-system interface for Google Cloud Storage
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/gcsfs-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/gcsfs-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/gcsfs-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/gcsfs-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/gcsfs-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/gcsfs-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/gcsfs-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/gcsfs-feedstock)
 
 Current release info
 ====================
