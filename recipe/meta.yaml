@@ -1,6 +1,6 @@
 {% set name = "gcsfs" %}
-{% set version = "0.1.0" %}
-{% set sha256 = "b8a5d95dd1f5b31c7077bdad557e254ebfa01f795208d5c42a9f320f6e5fad8d" %}
+{% set version = "0.1.1" %}
+{% set sha256 = "0cff804266865f48a52e30b6c107592a9ef3936c160a4dd693f502553ac29e04" %}
 
 package:
   name: {{ name }}
@@ -13,13 +13,13 @@ source:
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
   noarch: python
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
 
   run:
     - python
