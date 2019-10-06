@@ -1,6 +1,6 @@
 {% set name = "gcsfs" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "3b7d1039cee84082b8bc9c029b484d2874a45b8e06dbfcfcbce05c62fdda62c8" %}
+{% set version = "0.3.1" %}
+{% set sha256 = "63e2ee5ec7c296dd851bac07c25ff7d53c7d9919adb3943799e05467e9a595c4" %}
 
 package:
   name: {{ name }}
@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
 requirements:
