@@ -1,6 +1,6 @@
 {% set name = "gcsfs" %}
-{% set version = "0.6.0" %}
-{% set sha256 = "b5c459977059d85e9bdff476cc5f4e3c0725348835c9897478e129031677081b" %}
+{% set version = "0.6.1" %}
+{% set sha256 = "3e9845e3b8b24d18218c0f7bbdb2a9a315a47b9b6388bcaea025ab3449c17161" %}
 
 package:
   name: {{ name }}
@@ -38,7 +38,7 @@ about:
   license: BSD
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'Pythonic file-system interface for Google Cloud Storage'
+  summary: Pythonic file-system interface for Google Cloud Storage
   doc_url: http://gcsfs.readthedocs.io/en/latest/
 
 extra:
