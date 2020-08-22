@@ -18,16 +18,16 @@ build:
 
 requirements:
   build:
-    - python >=3.5
+    - python >=3.6
     - pip
 
   run:
-    - python >=3.5
+    - python >=3.6
     - google-auth
     - google-auth-oauthlib
     - requests
-    - decorator
-    - fsspec >=0.6.0
+    - fsspec >=0.8.0
+    - aiohttp
 
 test:
   imports:
