@@ -1,6 +1,6 @@
 {% set name = "gcsfs" %}
-{% set version = "0.7.1" %}
-{% set sha256 = "03658dfbf1a734d987aab3631e0a342b3d7e24a24998b4d8d2491fdd21053720" %}
+{% set version = "0.7.2" %}
+{% set sha256 = "e4438e342ad3cd7eb31f7a45af03a794a82cc991d36fa9deac6390707439a4de" %}
 
 package:
   name: {{ name }}
@@ -17,7 +17,7 @@ build:
   noarch: python
 
 requirements:
-  build:
+  host:
     - python >=3.6
     - pip
 
