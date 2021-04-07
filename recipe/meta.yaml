@@ -26,7 +26,7 @@ requirements:
     - google-auth
     - google-auth-oauthlib
     - requests
-    - fsspec >=0.8.0
+    - fsspec >=0.9.0,<0.10.0
     - aiohttp
 
 test:
