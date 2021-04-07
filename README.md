@@ -3,7 +3,7 @@ About gcsfs
 
 Home: https://github.com/dask/gcsfs
 
-Package license: BSD
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gcsfs-feedstock/blob/master/LICENSE.txt)
 
