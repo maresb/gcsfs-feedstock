@@ -23,11 +23,13 @@ requirements:
 
   run:
     - python >=3.6
-    - google-auth
+    - google-auth >=1.2
     - google-auth-oauthlib
     - requests
+    - decorator
     - fsspec >=0.9.0,<0.10.0
     - aiohttp
+    - ujson
 
 test:
   imports:
